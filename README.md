@@ -15,11 +15,13 @@ This code is provided "as is" without warranty of any kind. The script has been 
 Usage
 -----
 Using this script is simple:
-
-  git clone https://github.com/GjjvdBurg/Fruty.git . 
-  chmod +x fruty.sh
-  ./fruty.sh
+```bash
+git clone https://github.com/GjjvdBurg/Fruty.git . 
+chmod +x fruty.sh
+./fruty.sh
+```
 
 or:
-
-  curl -s https://raw.github.com/GjjvdBurg/Fruty/master/fruty.sh | bash
+```bash
+curl -s https://raw.github.com/GjjvdBurg/Fruty/master/fruty.sh | bash
+```
