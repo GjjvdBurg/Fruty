@@ -16,7 +16,7 @@ mkdir /tmp/frutigertemp
 cd /tmp/frutigertemp
 
 log "Getting CartoGothic Std font..."
-wget http://www.fontsite.com/freefonts/CartoGothicStd.zip || err "Failed to download CartoGothicStd.zip"
+wget --header='Host: www.fontex.org' --header='User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:48.0) Gecko/20100101 Firefox/48.0' --header='Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8' --header='Accept-Language: en-US,en;q=0.5' --header='Referer: http://www.fontex.org/download/carto-gothic-std.otf' --header='Connection: keep-alive' --header='Upgrade-Insecure-Requests: 1' 'http://www.fontex.org/get/Carto-gothic-std.otf' -O 'CartoGothicStd.zip' -c || err "Failed to download CartoGothicStd.zip"
 
 log "Unpacking..."
 unzip CartoGothicStd.zip || err "Failed to extract CartoGothic Std."
